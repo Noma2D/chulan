@@ -1,0 +1,18 @@
+deb file:///media/cdrom0/ smolensk contrib main non-free
+mount /dev/sr0 /media/cdrom0
+
+apt update
+apt dist-upgrade
+apt -f install
+
+
+sniffer
+iwtm stop
+iwtm disabled all
+iwtm enable iw_sniffer
+
+/opt/iw/tm5/etc/sniffer.conf адрес ивтм
+
+
+sudo su iwtm
+/opt/iw/tm5/etc/proxy.conf iscp- smtp,icq, http
