@@ -1,0 +1,17 @@
+puttygen then 'generate', give passprhase, save private key and give it a name
+into passphrase use that one you need
+
+copy the public key tons of words into a file
+
+go to putty and wtite ipppi`` then login
+cd ~/.ssh
+
+if nothing is working out
+mkdir ~/.ssh
+
+nano ~/.ssh/authorized_keys
+after this copy that ton of text and paste it in the file
+close putty
+open and find Connection -  SSH - Auth
+open your file 
+login
